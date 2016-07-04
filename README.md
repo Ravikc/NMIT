@@ -1,2 +1,0 @@
-# NMIT
-College website
