@@ -9,6 +9,7 @@
     background-color: #333;
     min-height:35px;
     margin: 0px;
+    border-radius: 0px;
 }
 
 #navbar a:hover{
@@ -20,8 +21,8 @@
 }
 
 #logo-div img{
-   max-width: 140px;
-   max-height: 140px; 
+   max-width: 130px;
+   max-height: 120px; 
 }
 
 #logo-div h1{
@@ -29,12 +30,14 @@
     color: red;
     padding: 0px;
     margin-bottom: 0px;
+    text-shadow: 1px 2px black;    
 }
 
 #logo-div h4{
     padding: 0px;
     margin-top: 0px;
 }
+
 
 
 
