@@ -14,4 +14,14 @@
     background-color: black;
 }
 
+#logo-container-div{
+   background-color: blue; 
+}
+
+#logo-div img{
+   max-width: 140px;
+   max-height: 140px; 
+}
+
+
 
