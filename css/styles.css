@@ -8,19 +8,32 @@
 #navbar{
     background-color: #333;
     min-height:35px;
+    margin: 0px;
 }
 
 #navbar a:hover{
     background-color: black;
 }
 
-#logo-container-div{
-   background-color: blue; 
+#logo-div{
+   margin: 0px;
 }
 
 #logo-div img{
    max-width: 140px;
    max-height: 140px; 
+}
+
+#logo-div h1{
+    font-family: 'Secular One', sans-serif;
+    color: red;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#logo-div h4{
+    padding: 0px;
+    margin-top: 0px;
 }
 
 
