@@ -86,13 +86,29 @@ figure {
    margin-top: 5px;  
 }
 
-.left{
-     background-color: #ededed
+.left-right{
+     background-color: #ededed;
 }
 
-.left:hover{
+.left-right:hover{
     border: 1px solid black;
 }
+#special-categories a{
+    color: black;
+    font-size: 1.2em;
+}
+.right{
+    background-color: beige;
+    margin-left: 5px;
+    min-height: 60px;
+}
+#tiles .col-xs-5, #tiles .col-xs-3{
+    background-color: #ededed;
+    margin: 5px;
+    min-height: 80px;
+    
+}
+
 
 
 /*For small devices*/
