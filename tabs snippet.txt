@@ -1,0 +1,28 @@
+<div class="container">
+<nav>
+  <ul class="nav nav-tabs nav-justified" role="tablist">    
+    <li role="presentation" class="active" ><a href="#home" data-toggle="tab">NMIT Highlights</a></li>
+    <li role="presentation" ><a href="#profile" data-toggle="tab">Profile</a></li>
+    <li role="presentation" ><a href="#messages" data-toggle="tab">Messages</a></li>
+  </ul>
+  
+ <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <br>
+      <p>Nitte Meenakshi Institute of Technology (NMIT) is an Autonomous Institution affiliated to the Visvesvaraya Technological University (VTU), with the approval of UGC</p>
+      <p>NMIT got accredited by the National Board of Accreditation [NBA] under Tier-1 status (for 4 Programs) and Grade-A status by National Assessment and Accreditation Council [NAAC - UGC ].</p>
+      <p>NMIT is the youngest engineering college in the country to be conferred the prestigious Autonomous Status by UGC/Govt. of Karnataka, New-Delhi inthe year 2007.</p>
+      <p>NMIT is the only unaided private engineering college in Karnataka State to be selected by the Govt. of India for World Bank Funding under TEQIP Phase II-Subcomponent 1.1 in the year 2011.<a href="#">Read More...</a></p>
+    </div>
+    
+    <div role="tabpanel" class="tab-pane" id="profile">
+      
+      
+    </div>
+    
+    
+    <div role="tabpanel" class="tab-pane" id="messages">Lorem Ipsum</div>
+  </div>
+
+</nav>
+</div>

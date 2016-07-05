@@ -76,6 +76,14 @@ figure {
     margin: 10px auto;
 }
     
+.affiliations{
+    margin: 5px;
+    background-color: #ededed;
+}
+
+#special-categories div{
+   padding: 10px;
+}
 
 
 
