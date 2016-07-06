@@ -1,0 +1,148 @@
+<div id="special-categories" class="container">
+ 
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <h4>Inter Disciplinary Center of Excellence</h4>
+      <a href="#">
+      <div class="row left-right">
+        <div class="col-xs-5">
+          <img src="images\satellite.png" alt="Small Satellite Reserch">          
+        </div>
+        <div class="col-xs-7">
+          Small Satellite Reserch          
+        </div>
+      </div>
+      </a>
+      
+      <a href="#">
+      <div class="row left-right">  
+        <div class="col-xs-5">
+          <img src="images\robotics-reserch.png" alt="Robotics reserch">          
+        </div>
+        <div class="col-xs-7">
+          Robotics Reserch         
+        </div>
+      </div>
+      </a>
+      
+      <a>
+      <div class="row left-right">  
+        <div class="col-xs-5">
+          <img src="images\nano-material.png" alt="Nano materials and mems">          
+        </div>
+        <div class="col-xs-7">
+          Nano Materials and Mems
+        </div>
+      </div>
+      </a>
+      
+      <a href="#">
+      <div class="row left-right">  
+        <div class="col-xs-5">
+          <img src="images\design-and-simulation.png" alt="Design and simulation">          
+        </div>
+        <div class="col-xs-7">
+          Design and simulation
+        </div>
+      </div>
+      </a>
+      
+      <a href="#">
+      <div class="row left-right">  
+        <div class="col-xs-5">
+          <img src="images\fluid-dynamics.png" alt="Fluid dynamics">          
+        </div>
+        <div class="col-xs-7">
+          Computational Fluid Dynamics
+        </div>
+      </div>
+      </a>
+    </div>
+  
+    
+    <!--Special categories end here-->
+    <!--Starting tiles [the right part] from here-->
+   <div class="container"> 
+    <div id="tiles" class="col-xs-12 col-sm-7 col-sm-offset-1"> 
+      <h4>Quick Links</h4>
+      <br class="visible-sm">
+      
+      <div class="row">
+        <a href="#">
+          <div class="col-xs-5 tile-placement">
+             Placements
+          </div>
+        </a>
+          <a href="#">
+          <div class="col-xs-3 tile-admission">
+            Admission
+          </div>
+        </a>
+          <a href="#">
+          <div class="col-xs-3 tile-testimonial">
+            Student Testimonial
+          </div>
+        </a>
+      </div>
+      
+      
+      
+      <div class="row">
+        <a href="#">
+          <div class="col-xs-5 tile-cocurricular">          
+            Extra and Co-curricular Activities          
+          </div>
+        </a>
+        <a href="#">
+          <div class="col-xs-3 tile-awards">
+            Awards
+          </div>
+        </a>
+        <a href="#">
+          <div class="col-xs-3 tile-extension">
+            Extension and Outreach
+          </div>      
+        </a>  
+      </div> 
+           
+      <!--Horizontal Rule-->
+      <div class="col-xs-12">   
+        <hr class="col-xs-12">   
+      </div>
+      <!--Horizontal Rule-->
+  </div>
+    
+      
+  <div id="below-rule">    
+     <div class="row">
+       
+       <div class="col-xs-4">
+         <figure>
+            <img src="" alt="">
+            <figcaption>Innovation & Entrepreneurship Initiatives</figcaption> 
+          </figure>         
+       </div>
+       
+       <div class="col-xs-4">
+         <figure>
+            <img src="" alt="">
+            <figcaption>Foreign Collaboraion</figcaption> 
+          </figure>         
+       </div>
+        
+       <div class="col-xs-4">
+         <figure>
+            <img src="" alt="">
+            <figcaption>Student Testimonial</figcaption> 
+          </figure>         
+       </div>
+                
+     </div>
+  </div>
+      
+      
+    
+    </div>       
+  </div>
+</div>
+
