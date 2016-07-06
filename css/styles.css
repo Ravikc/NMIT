@@ -86,13 +86,28 @@ figure {
     background-color: #ededed;
 }
 /*Target left section descriptions LIKE A BOSS!*/
-#left-section > div > a > div:nth-child(2){
+#left-section > div > a > div{
     min-height: 65px;
+    padding: 0px;
+    margin-top: 10px;
+} 
+#left-section > div > a > div:nth-child(2){
+    padding-top: 10px;
+    text-align: center;
 } 
  
 
 #right-section > div > div {
-    min-height: 53px;
+    /*weird properties for making text middle*/
+    height: 80px;
+    margin-top: 10px;
+    display: table;   
+}
+#right-section > div > div >p{
+    /*weird properties for making text middle*/
+    line-height: normal;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .placement{
