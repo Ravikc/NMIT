@@ -80,10 +80,13 @@ figure {
     margin: 5px 5px 0px 5px;;
     background-color: #ededed;
 }
+.affiliations img{
+    width: 75px;
+    height: 68.67px;
+}
 
 #tiles-section{
     margin-top: 10px;
-    background-color: #ededed;
 }
 /*Target left section descriptions LIKE A BOSS!*/
 #left-section > div > a > div{
@@ -94,13 +97,16 @@ figure {
 #left-section > div > a > div:nth-child(2){
     padding-top: 10px;
     text-align: center;
+}
+#left-section > div{
+    background-color: #ededed;
 } 
  
 
 #right-section > div > div {
     /*weird properties for making text middle*/
     height: 80px;
-    margin-top: 10px;
+    margin-bottom: : 10px;
     display: table; 
     padding: 2px;
     text-align: center;  
@@ -112,8 +118,17 @@ figure {
     vertical-align: middle;
 }
 #right-section > div{
-    padding: 5px;
+    padding: 0 5px 20px 5px;;
 }
+#right-section #below-hr div{
+    padding: 0px;
+}
+#right-section{
+    padding: 0px;
+}
+#right-section #below-hr > div{
+    margin-bottom: 10px;
+} 
 
 .placement{
   background-color: #8A9045;  
@@ -133,6 +148,16 @@ figure {
 .extension{
   background-color: #a5615a;  
 }
+hr{
+    width:100%;
+    border: none 0;
+    border-top: 1px solid black;
+    background: #fff;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*For small devices*/
 @media (max-width: 992px) { 
