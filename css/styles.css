@@ -142,9 +142,9 @@ figure {
 #right-section #below-hr > div figcaption{
     width: 140px;
     margin: 0px;
-    background-color: skyblue;
-    
+    background-color: skyblue;    
 }
+
 
 .placement{
   background-color: #8A9045;  
@@ -193,10 +193,6 @@ hr{
 #tiles .col-xs-5, #tiles .col-xs-3{
     min-height: 87.23px;
     }
-#right-section #below-hr > div{
-    margin-bottom: 10px;
-    padding-left: 80px;
-    } 
 }
 
 
@@ -227,9 +223,13 @@ hr{
         margin-top:10px;
         margin-bottom: 0px;
     }
-    #right-section #below-hr > div{
-    margin-bottom: 10px;
-    padding-left: 50px;
-} 
+    
+    #right-section #below-hr > div > a figure{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
 }
 
