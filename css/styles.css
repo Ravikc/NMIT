@@ -128,7 +128,23 @@ figure {
 }
 #right-section #below-hr > div{
     margin-bottom: 10px;
+    padding-left: 10px;
 } 
+#right-section #below-hr > div img{
+    height: 140px;
+    width: 140px;
+}
+#right-section #below-hr > div figure{
+    height: 140px;
+    width: 140px;
+    margin: 0px;
+}
+#right-section #below-hr > div figcaption{
+    width: 140px;
+    margin: 0px;
+    background-color: skyblue;
+    
+}
 
 .placement{
   background-color: #8A9045;  
@@ -164,7 +180,7 @@ hr{
 #logo-div img{
     max-width: 100px;
     max-height: 80px; 
-}
+    }
 
 #logo-div h1{
     font-family: 'Secular One', sans-serif;
@@ -174,10 +190,13 @@ hr{
     text-shadow: 1px 2px black; 
     font-size: 2em;   
     }
-}
-
 #tiles .col-xs-5, #tiles .col-xs-3{
     min-height: 87.23px;
+    }
+#right-section #below-hr > div{
+    margin-bottom: 10px;
+    padding-left: 80px;
+    } 
 }
 
 
@@ -208,5 +227,9 @@ hr{
         margin-top:10px;
         margin-bottom: 0px;
     }
+    #right-section #below-hr > div{
+    margin-bottom: 10px;
+    padding-left: 50px;
+} 
 }
 
