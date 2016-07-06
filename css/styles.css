@@ -97,17 +97,21 @@ figure {
     color: black;
     font-size: 1.2em;
 }
-.right{
-    background-color: beige;
-    margin-left: 5px;
-    min-height: 60px;
-}
+
 #tiles .col-xs-5, #tiles .col-xs-3{
     background-color: #ededed;
-    margin: 5px;
+    margin: 0 5px 5px 0;
     min-height: 80px;
-    
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     
 }
+#tiles h4{
+    margin: 10px 0 0 0;
+}
+
+
 
 
 
