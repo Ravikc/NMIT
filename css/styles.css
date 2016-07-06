@@ -100,16 +100,54 @@ figure {
 
 #tiles .col-xs-5, #tiles .col-xs-3{
     background-color: #ededed;
-    margin: 0 5px 5px 0;
+    margin: 0 0 5px 5px;
     min-height: 80px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-     
+    text-align: center;           
 }
 #tiles h4{
-    margin: 10px 0 0 0;
+    margin: 0 0 0 4px;
 }
+#tiles .tile-placement {
+  margin-left: 3%;
+  padding-top: 4%;
+  background-color: #8A9045;
+  border-radius: 2px;
+}
+#tiles .tile-admission{
+   padding-top: 4%;
+   background-color: #6591ae;
+   border-radius: 2px;  
+}
+#tiles .tile-testimonial{
+   padding-top: 2.5%;
+   background-color: #7d7b7b;
+   border-radius: 2px;  
+}
+#tiles .tile-cocurricular{
+  margin-left: 3%;
+  padding-top: 3%;
+  background-color: #a88b60;
+  border-radius: 2px; 
+}
+#tiles .tile-awards{
+    padding-top:4%;
+    background-color: #c16622;
+    border-radius: 2px;  
+}
+#tiles .tile-extension{
+   padding-top: 3%;
+   background-color: #a5615a;
+   border-radius: 2px;  
+}
+
+#tiles hr{
+    border: 1px solid black;
+    position: relative;
+    right: 13px;
+    
+}
+
+
 
 
 
@@ -130,6 +168,10 @@ figure {
     text-shadow: 1px 2px black; 
     font-size: 2em;   
     }
+}
+
+#tiles .col-xs-5, #tiles .col-xs-3{
+    min-height: 87.23px;
 }
 
 
