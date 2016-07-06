@@ -101,13 +101,17 @@ figure {
     /*weird properties for making text middle*/
     height: 80px;
     margin-top: 10px;
-    display: table;   
+    display: table; 
+    padding: 2px;  
 }
 #right-section > div > div >p{
     /*weird properties for making text middle*/
     line-height: normal;
     display: table-cell;
     vertical-align: middle;
+}
+#right-section > div{
+    
 }
 
 .placement{
