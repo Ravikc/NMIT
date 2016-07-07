@@ -189,6 +189,42 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#external-links{
+    margin: 10px 0;
+}
+
+#external-links .row .social > a > img{
+    max-height: 100px;
+    max-width: 60px;
+}
+
+#external-links .row .student > a >  img{
+    max-width: 120px;
+    max-height: 100px;
+}
+/*#external-links{
+    padding-top: 20px;
+}
+.social img{
+    min-height: 55px;
+    min-width: 55px;
+}
+.student-links img{
+   min-height: 100px;
+    min-width: 100px;    
+}*/
+
+
+
+/*For medium+ devices*/
+@media (min-width: 993px){
+ /*.student-links img{
+   min-height: 100px;
+    min-width: 100px; 
+    position: relative;
+    top: -20px;   
+    }*/
+}
 
 
 /*For small devices*/
@@ -207,6 +243,12 @@ hr{
     font-size: 2em;   
     }
 
+/*.student-links img{
+   min-height: 100px;
+    min-width: 100px; 
+    position: relative;
+    top: -20px;   
+    }*/
 }
 
 
@@ -232,6 +274,12 @@ hr{
     #right-section > div > div{
         margin-top:10px;
         margin-bottom: 0px;
+    }
+.student-links img{
+    min-height: 100px;
+    min-width: 100px; 
+    position: relative;
+    top: 20px;   
     }
     
     
