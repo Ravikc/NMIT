@@ -203,7 +203,14 @@ hr{
     max-height: 100px;
 }
 #map{
-    max-height: 100px;
+    max-height: 150px;
+    margin: 0 auto;
+}
+#external-links > div > div > div{
+    padding: 6%;
+}
+#external-links img{
+    margin: 0 auto;
 }
 
 
