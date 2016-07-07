@@ -101,6 +101,9 @@ figure {
 #left-section > div{
     background-color: #ededed;
 } 
+#tiles-section #left-section > div:hover{
+    border: 1px solid black;
+}
  
 
 #right-section > div > div {
@@ -111,12 +114,24 @@ figure {
     padding: 2px;
     text-align: center;  
 }
-#right-section > div > div >p{
-    /*weird properties for making text middle*/
-    line-height: normal;
-    display: table-cell;
-    vertical-align: middle;
+
+#right-section span{
+    display: table;
+    height: 80px;
+    text-align: center;
+    
 }
+
+#right-section span p{
+    display: table-cell;
+    vertical-align: middle;   
+    font-size: 1.2em;
+}
+
+a{
+    color: black;
+}
+
 #right-section > div{
     padding: 0 5px 20px 5px;;
 }
@@ -141,6 +156,9 @@ figure {
     width: 140px;
     margin: 0px;
     background-color: skyblue;    
+}
+#right-section #below-hr > div > a figure:hover{
+    border: 1px solid black;   
 }
 
 
