@@ -195,7 +195,7 @@ hr{
 
 #external-links .row .social > a > img{
     max-height: 100px;
-    max-width: 60px;
+    max-width: 100px;
 }
 
 #external-links .row .student > a >  img{
@@ -237,6 +237,9 @@ hr{
     #right-section > div > div{
         margin-top:10px;
         margin-bottom: 0px;
+    }
+    #right-section{
+        margin-top: 10px;
     }
 
     
