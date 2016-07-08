@@ -98,28 +98,35 @@ figure {
     padding-top: 10px;
     text-align: center;
 }
+
 #left-section > div{
     background-color: #ededed;
+    
 } 
 #tiles-section #left-section > div:hover{
     border: 1px solid black;
 }
+#tiles-section #left-section > div  > a  img{
+    max-height: 100px;
+    max-width: 100px;
+}
  
 
-#right-section > div > div {
+#right-section > div  div {
     /*weird properties for making text middle*/
     height: 80px;
     margin-bottom: 10px;
     display: table; 
     padding: 2px;
     text-align: center;  
+    transition: width 2s;    
 }
 
 #right-section span{
     display: table;
     height: 80px;
     text-align: center;
-    
+    margin-left: 5%;
 }
 
 #right-section span p{
@@ -192,10 +199,14 @@ hr{
 #external-links{
     margin: 10px 0;
 }
-
+#external-links > p{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
 #external-links .row .social > a > img{
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 50px;
+    max-width: 50px;
 }
 
 #external-links .row .student > a >  img{
@@ -211,6 +222,30 @@ hr{
 }
 #external-links img{
     margin: 0 auto;
+}
+#external-links a > button{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tiles-section #right-section > div > a >div:hover{
+    width: 105%;   
+    animation-name: tileAnimate;
+    animation-duration: 4s;
+}
+@keyframes tileAnimate {
+    to {background-color: yellow;}
+}
+
+#gallery img{
+    margin: 0 auto;
+}
+
+#gallery-phone > div > div > span{
+    display: table;
+    margin: 0 auto;
+    font-size: 5em;
+    padding: 10px;
 }
 
 
