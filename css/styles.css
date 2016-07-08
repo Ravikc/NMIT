@@ -296,14 +296,20 @@ hr{
     }
     
     header #navbar > .container-fluid > a > button{
-       width: 90%; 
+       width: 85%; 
        float: left;
-       margin: 2px 5px 10px 5px;       
+       margin-top: 0px;    
+       margin-bottom: 5px;
+       margin-left: auto;
+       margin-right: auto;   
     }
     header #navbar > .container-fluid > div > button{
         border-width: 0;
         float: right;
-        margin-top: 2px;
+        margin-top: 2px;    
+    }
+ }
+
+
     
-}
 
