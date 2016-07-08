@@ -256,7 +256,9 @@ hr{
     text-decoration: none;
 }
 
- 
+#gallery-phone > a > button {
+    padding: 0px;
+} 
 
 
 
@@ -288,8 +290,20 @@ hr{
         margin-top: 10px;
     }
 
+    #external-links .row .student > a >  img{
+    max-width: 90px;
+    max-height: 100px;
+    }
     
-    
+    header #navbar > .container-fluid > a > button{
+       width: 90%; 
+       float: left;
+       margin: 2px 5px 10px 5px;       
+    }
+    header #navbar > .container-fluid > div > button{
+        border-width: 0;
+        float: right;
+        margin-top: 2px;
     
 }
 
