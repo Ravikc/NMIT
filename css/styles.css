@@ -217,11 +217,16 @@ hr{
     max-height: 150px;
     margin: 0 auto;
 }
-#external-links > div > div > div{
+#external-links .social{
     padding: 6%;
 }
 #external-links img{
     margin: 0 auto;
+}
+#external-links .student {
+    padding-top: 6%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #external-links a > button{
     width: 90%;
