@@ -1,3 +1,89 @@
+#navbar a{
+  padding: 5px 10px;
+  margin: 2px 5px;  
+  font-size: 0.84em;
+  color: white
+}
+
+#navbar{
+    background-color: #333;
+    min-height:35px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+#navbar a:hover{
+    background-color: black;
+}
+
+#logo-div{
+   margin: 0px;
+   padding: 0px;
+   background: -moz-linear-gradient(45deg, rgba(255,13,49,1) 7%, rgba(214,9,37,1) 33%, rgba(128,3,13,1) 89%, rgba(128,3,13,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(7%, rgba(255,13,49,1)), color-stop(33%, rgba(214,9,37,1)), color-stop(89%, rgba(128,3,13,1)), color-stop(100%, rgba(128,3,13,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(255,13,49,1) 7%, rgba(214,9,37,1) 33%, rgba(128,3,13,1) 89%, rgba(128,3,13,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(255,13,49,1) 7%, rgba(214,9,37,1) 33%, rgba(128,3,13,1) 89%, rgba(128,3,13,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(255,13,49,1) 7%, rgba(214,9,37,1) 33%, rgba(128,3,13,1) 89%, rgba(128,3,13,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(255,13,49,1) 7%, rgba(214,9,37,1) 33%, rgba(128,3,13,1) 89%, rgba(128,3,13,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80030D', endColorstr='#FF0D31',GradientType=1 ); /* ie6-9 */
+}
+
+#logo-div img{
+   max-width: 130px;
+   max-height: 100px; 
+}
+
+#logo-div h1{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    padding: 0px;
+    margin:5px 0 0 0;
+    text-shadow: 1px 2px black;    
+}
+
+#logo-div h4{
+    padding: 0px;
+    margin-top: 0px;
+    color: white
+}
+
+.logo-text-area{
+    padding: 0px !important;
+}
+
+.carousel-inner img{
+    height: 273px !important;
+    width: 100%;
+}
+
+.carousel-caption{
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+    display: table;
+    max-width: 30%; 
+    margin: 10px auto;
+}
+    
+.affiliations{
+    margin: 5px 5px 0px 5px;;
+    background-color: #ededed;
+}
+.affiliations img{
+    width: 75px;
+    height: 68.67px;
+}
 
 #tiles-section{
     margin-top: 10px;
@@ -172,7 +258,21 @@ hr{
 
 #gallery-phone > a > button {
     padding: 0px;
+    margin: 10px;
 } 
+
+footer ul{
+    list-style: none;
+}
+footer{
+    background-color: #565656;
+    color: white;
+    font-size: 0.9em;
+}
+footer > div > div > p {
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
 
 
 
