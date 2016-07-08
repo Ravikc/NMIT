@@ -228,11 +228,7 @@ hr{
     padding-left: 0px;
     padding-right: 0px;
 }
-#external-links a > button{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #tiles-section #right-section > div > a >div:hover{
     width: 105%;   
     animation-name: tileAnimate;
@@ -246,12 +242,22 @@ hr{
     margin: 0 auto;
 }
 
-#gallery-phone > div > div > span{
+#gallery-phone > div > div >a> span{
     display: table;
     margin: 0 auto;
     font-size: 5em;
     padding: 10px;
 }
+
+#gallery-phone a button{
+    margin-top: 2%;
+}
+#gallery-phone a:hover{
+    text-decoration: none;
+}
+
+ 
+
 
 
 
